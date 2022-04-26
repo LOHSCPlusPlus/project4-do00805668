@@ -19,7 +19,7 @@ class CropDB {
         void print(bool searchRange, double min, double max);
         void expand();
         void shrink();
-
         CropInfo *crops;
         int numCrops;
 };
+ 
